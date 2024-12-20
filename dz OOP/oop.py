@@ -1,5 +1,3 @@
-
-
 class MediaFile:
 
     def __init__(self, name, size, date, owner, storage_location):
