@@ -83,8 +83,8 @@ class CloudStorage(StorageLocation):
 local_storage = LocalStorage()
 cloud_storage = CloudStorage("folder Name")
 
-audio = AudioFile("audiofile", 1024 * 1024, '17.12.69', "god", local_storage, 240, 128)
-video = VideoFile("videofile", 1024 * 1024 * 10, '17.12.))', "angel1", cloud_storage, "1920x1080", 240)
+audio = AudioFile("audiofile", 'много', '17.12.69', "god", local_storage, 240, 128)
+video = VideoFile("videofile", 'ощень много', '17.12.))', "angel1", cloud_storage, "1920x1080", 240)
 
 print(audio)
 print(video)
